@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<link rel="stylesheet" href="layout.css">
+	<style> 
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+		}
+</style>
+	<style>
+	   @media screen and (max-width:720px) {
+      .form {width: 13.1%;}
+    }
+    
+    @media screen and (max-width: 420px) {
+      .weekdays li, .days li {width: 12.5%;}
+      .days li .active {padding: 2px;}
+    }
+ 
+</style>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+</head>
+
+<body  style="background-color:powderblue;">
+<div id="borderimg1" class="template1"><h1 align="center">NOT</h1> </div>
+	<div><form action="/html/tags/html_form_tag_action.cfm" method="post" >
+<div>
+  <textarea class="notsatır" style="width:1930px; height: 200px; align: "center" name="comments2">
+Notunuzu yazın...</textarea>
+</div>
+<button><a href = "anasayfa2.html">KAYDET</a></button>
+</body>
+</html>
